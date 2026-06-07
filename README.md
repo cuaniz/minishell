@@ -87,6 +87,10 @@ See `.env.example` for the reproducibility note. Do not commit real `.env` files
 
 No database or seed data is needed. The project is self-contained.
 
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
 ## Current status
 
 Portfolio-ready educational project. The repository is intentionally small and focused on operating-system fundamentals rather than a full production shell.
