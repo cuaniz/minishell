@@ -1,0 +1,33 @@
+# Build outputs
+minishell
+minishell.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Coverage and generated reports
+coverage/
+build/
+dist/
