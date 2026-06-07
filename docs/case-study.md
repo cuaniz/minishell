@@ -21,7 +21,7 @@ I designed and implemented the shell as the developer of the project. The work i
 - **Use C and POSIX APIs directly.** This makes process management and file-descriptor flow explicit.
 - **Keep the project small.** The repository is easier to review when it focuses on the core shell behavior instead of growing into an incomplete Bash clone.
 - **Document limitations honestly.** Recruiters and developers can evaluate the project faster when the scope is clear.
-- **Add reproducible commands.** `make`, `make check`, and `.env.example` make the repository easier to clone and validate.
+- **Add reproducible commands.** `make` and `make check` make the repository easier to clone and validate.
 
 ## Challenges
 
@@ -47,7 +47,3 @@ The project was compiled and executed successfully on Ubuntu in my personal deve
 - Improve parsing for escaped characters, environment-variable expansion, and more robust quote handling.
 - Add job control for background processes.
 - Split the implementation into smaller modules once the project grows beyond a single educational file.
-
-## Why this demonstrates useful junior-developer skills
-
-This project shows that I can work close to the operating system, reason about process control, document tradeoffs, and prepare a repository so another developer can clone it, build it, and understand it quickly. Those habits matter in a first professional role because maintainability and communication are as important as writing code that works locally.

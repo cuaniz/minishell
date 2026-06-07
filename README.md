@@ -81,8 +81,6 @@ The shell reads standard environment variables already provided by the operating
 | `USER` | Used to display the prompt user name when available. |
 | `HOME` | Used by `cd` when no directory argument is provided. |
 
-See `.env.example` for the reproducibility note. Do not commit real `.env` files.
-
 ## Demo data
 
 No database or seed data is needed. The project is self-contained.
