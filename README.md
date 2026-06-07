@@ -32,6 +32,8 @@ This project targets POSIX environments such as Linux, macOS, or WSL with a real
 
 Native Windows MinGW is not enough because the program depends on POSIX headers such as `sys/wait.h` and terminal APIs.
 
+The program has been compiled and executed successfully on Ubuntu in a personal development environment.
+
 ## Installation
 
 ```sh
@@ -88,6 +90,8 @@ No database or seed data is needed. The project is self-contained.
 ## Current status
 
 Portfolio-ready educational project. The repository is intentionally small and focused on operating-system fundamentals rather than a full production shell.
+
+Validation status: compiled and manually executed on Ubuntu.
 
 ## Technical decisions
 

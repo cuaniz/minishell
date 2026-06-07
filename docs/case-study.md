@@ -30,6 +30,10 @@ I designed and implemented the shell as the developer of the project. The work i
 - Handling terminal input for history navigation without relying on a large shell framework.
 - Keeping parsing simple while still supporting useful operators.
 
+## Validation
+
+The project was compiled and executed successfully on Ubuntu in my personal development environment, which matches the intended UNIX/POSIX scope for an Operating Systems course project.
+
 ## What I learned
 
 - How `fork`, `execvp`, `pipe`, `dup2`, and `wait` cooperate to execute shell commands.
